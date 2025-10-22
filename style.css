@@ -100,7 +100,7 @@ a {
     gap: 10px;
 }
 
-.box {
+.box-image {
     outline-style: solid;
     outline-width: 4px;
     outline-color: #3882f6;
@@ -109,4 +109,8 @@ a {
 .card-subtext {
     font-size: 18px;
     text-align: center;
+}
+
+.smooth {
+    border-radius: 10%;
 }
