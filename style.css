@@ -44,7 +44,7 @@ a {
     font-weight: 900;
 }
 
-.logo {
+.logo, .call {
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -138,4 +138,15 @@ a {
     font-weight: 600;
     align-self: flex-end;
     padding: 15px 100px;
+}
+
+.action {
+    padding: 100px 200px;
+}
+
+.action-box {
+    display: flex;
+    background-color: #3882f6;
+    padding: 40px 80px;
+    justify-content: space-between;
 }
