@@ -72,3 +72,41 @@ a {
     width: 1200px;
     color: #F9FAF8;
 }
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 250px;
+    gap: 48px;
+}
+
+.random-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.random-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.box {
+    outline-style: solid;
+    outline-width: 4px;
+    outline-color: #3882f6;
+}
+
+.card-subtext {
+    font-size: 18px;
+    text-align: center;
+}
