@@ -65,6 +65,7 @@ a {
     font-weight: 900;
     width: 100px;
     height: 30px;
+    border-color: #E5E7EB;
 }
 
 .awesome-pic {
@@ -112,7 +113,7 @@ a {
 }
 
 .smooth {
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 .nice-filler {
