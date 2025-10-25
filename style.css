@@ -52,6 +52,7 @@ a {
 .subtext, .header a {
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: 600;
 }
 
 .header-links {
@@ -150,4 +151,12 @@ a {
     background-color: #3882f6;
     padding: 40px 80px;
     justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    padding: 15px;
+    min-height: 70px;
+    justify-content: center;
+    align-items: center;
 }
