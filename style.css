@@ -77,7 +77,7 @@ img {
 .awesome-pic {
     background-color: grey;
     color: #F9FAF8;
-    width: 300px;
+    height: 275px;
 }
 
 .random-info {
@@ -103,7 +103,8 @@ img {
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    flex-basis: 300px;
+    justify-content: baseline;
     align-items: center;
     gap: 10px;
 }
