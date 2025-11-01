@@ -8,10 +8,14 @@ a {
     text-decoration: none;
 }
 
+img {
+    text-align: center;
+}
+
 .hero {
     display: flex;
     flex-direction: column;
-    padding: 24px 175px;
+    padding: 24px 175px 80px;
     gap: 48px;
 }
 
@@ -71,15 +75,16 @@ a {
 
 .awesome-pic {
     background-color: grey;
-    width: 1200px;
     color: #F9FAF8;
+    width: 1200px;
+    height: 250px;
 }
 
 .random-info {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 24px 250px;
+    padding: 24px 250px 80px;
     gap: 48px;
 }
 
@@ -99,6 +104,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     gap: 10px;
 }
 
@@ -149,8 +155,9 @@ a {
 .action-box {
     display: flex;
     background-color: #3882f6;
-    padding: 40px 80px;
+    padding: 60px 80px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footer {
